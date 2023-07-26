@@ -37,3 +37,15 @@ Here is where you say which dispatcher you want to use in this module. As I said
 ### The Dispatchers
 
 In this example I created in the `shared` folder, but you can put it where you want, as long that it has a `send` method to be called.
+
+---
+
+### Tests
+
+You can clone this project, install the dependencies by `npm i`, and after that, run `npm run start`. Do a request to `http://localhost:3000` using your favorite rest testing platform, such as Postman or Insomnia. You should see the result in the server console:
+
+```
+[FifoService] {"success":true}
+```
+
+If you change in `parte-que-envia.module` file, the enum option to `API`, you should see the exception because this class doesn't have the required method.
