@@ -1,8 +1,8 @@
 {
-  "name": "testes-nest",
+  "name": "dynamic-injection-nest",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Jacson R. Sasse",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
