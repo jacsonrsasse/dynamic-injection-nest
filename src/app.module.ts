@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
-import { ParteQueEnviaModule } from './modules/parte-que-envia/parte-que-envia.module';
+import { UserModule } from './modules/user/user.module';
+import { WebsocketModule } from './modules/websocket/websocket.module';
 
 @Module({
-  imports: [ParteQueEnviaModule],
+  imports: [UserModule, WebsocketModule],
 })
 export class AppModule {}
